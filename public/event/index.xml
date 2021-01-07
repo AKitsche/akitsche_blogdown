@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | AKitsche Blog</title>
+    <link>/event/</link>
+      <atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andreas Kitsche</copyright><lastBuildDate>Tue, 14 Nov 2017 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Talks</title>
+      <link>/event/</link>
+    </image>
+    
+    <item>
+      <title>Data manipulation in R</title>
+      <link>/talk/data-manipulation-in-r/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
+      <guid>/talk/data-manipulation-in-r/</guid>
+      <description>&lt;p&gt;This talk was part of the Machine Learning/Data Science Meet up Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to implement a shiny web App for inferential statistics</title>
+      <link>/talk/how-to-implement-a-shiny-web-app-for-inferential-statistics/</link>
+      <pubDate>Thu, 26 Jan 2017 00:00:00 +0100</pubDate>
+      <guid>/talk/how-to-implement-a-shiny-web-app-for-inferential-statistics/</guid>
+      <description>&lt;p&gt;This talk was part of Biometric Seminar at the Leibniz University of Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The evaluation of genetic association studies using the multiple marginal models appoach</title>
+      <link>/talk/the-evaluation-of-genetic-association-studies-using-the-multiple-marginal-models-appoach/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0100</pubDate>
+      <guid>/talk/the-evaluation-of-genetic-association-studies-using-the-multiple-marginal-models-appoach/</guid>
+      <description>&lt;p&gt;This talk was part of the workshop on using the multiple marginal models approach introduced by &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2011.01005.x/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pipper et al.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing for qualitative interaction using ratios of treatment differences</title>
+      <link>/talk/testing-for-qualitative-interaction-using-ratios-of-treatment-differences/</link>
+      <pubDate>Tue, 24 Sep 2013 00:00:00 +0200</pubDate>
+      <guid>/talk/testing-for-qualitative-interaction-using-ratios-of-treatment-differences/</guid>
+      <description>&lt;p&gt;This talk was part of the International Conference on Simultaneous Inference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessment of the Heterogeneity of the Treatment Effect among Subgroups by Detecting Qualitative Interactions</title>
+      <link>/talk/assessment-of-the-heterogeneity-of-the-treatment-effect-among-subgroups-by-detecting-qualitative-interactions/</link>
+      <pubDate>Tue, 28 Aug 2012 00:00:00 +0200</pubDate>
+      <guid>/talk/assessment-of-the-heterogeneity-of-the-treatment-effect-among-subgroups-by-detecting-qualitative-interactions/</guid>
+      <description>&lt;p&gt;This talk was part of the XXVIth International Biometric Conference Kobe, Japan.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Model Averaging</title>
+      <link>/talk/bayesian-model-averaging/</link>
+      <pubDate>Mon, 21 Nov 2011 00:00:00 +0100</pubDate>
+      <guid>/talk/bayesian-model-averaging/</guid>
+      <description>&lt;p&gt;This talk was held at the Journal Club at the Institute of Biostatistics Hannover, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Multiple Comparisons</title>
+      <link>/talk/display-multiple-comparisons/</link>
+      <pubDate>Wed, 09 Nov 2011 00:00:00 +0100</pubDate>
+      <guid>/talk/display-multiple-comparisons/</guid>
+      <description>&lt;p&gt;This talk was held at the Journal Club at the Institute of Biostatistics Hannover, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluation of interaction effects with user defined contrasts in the cell means model</title>
+      <link>/talk/evaluation-of-interaction-effects-with-user-defined-contrasts-in-the-cell-means-model/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0200</pubDate>
+      <guid>/talk/evaluation-of-interaction-effects-with-user-defined-contrasts-in-the-cell-means-model/</guid>
+      <description>&lt;p&gt;This talk was part of the 2nd conference of the Central European Network Zurich, Switzerland.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous confidence intervals incorporating historical control data</title>
+      <link>/talk/simultaneous-confidence-intervals-incorporating-historical-control-data/</link>
+      <pubDate>Mon, 27 Sep 2010 00:00:00 +0200</pubDate>
+      <guid>/talk/simultaneous-confidence-intervals-incorporating-historical-control-data/</guid>
+      <description>&lt;p&gt;This talk was part of the Non-Clinical Statistics Conference Lyon, France.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,57 @@
+---
+title: "Connecting R with Salesforce.com"
+author: "Andreas Kitsche"
+date: 2015-07-23T21:13:14-05:00
+categories: ["R"]
+tags: ["salesforce", "R"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Hey folks,</p>
+<p>this blog post will give a short introduction on how to connect <a href="https://www.salesforce.com">salesforce.com</a> with <a href="https://cran.r-project.org/">R</a>.
+According to <a href="http://de.gravatar.com/hiratake55">Takekatsu Hiramura</a></p>
+<blockquote>
+<p>R statistical computing environment is the most populous statistical computing software, and Salesforce.com is the world´s most innovative cloud-computing based SaaS (Software-as-a-Service) CRM package.</p>
+</blockquote>
+<p><img src="/img/R_salesforce_blog_picture.png" /></p>
+<p>To connect R with salesforce.com Takekatsu Hiramura developed the R add-on package <a href="https://cran.r-project.org/web/packages/RForcecom/">RForcecom</a>. The source code of the package is available from <a href="https://github.com/hiratake55/RForcecom">github</a>. You can install the package from <a href="http://cran.r-project.org/">CRAN</a>:</p>
+<pre class="r"><code>install.packages(&quot;RForcecom&quot;)
+library(RForcecom)</code></pre>
+<p>To sign in to salesforce.com we can use the <code>rforcecom.login()</code> function. We have to set the <code>username</code>, <code>password</code>, <code>instanceURL</code>, <code>apiVersion</code> arguments as follows:</p>
+<pre class="r"><code>username &lt;- &quot;yourname@yourcompany.com&quot;
+password &lt;- &quot;YourPasswordSECURITY_TOKEN&quot;
+instanceURL &lt;- &quot;https://login.salesforce.com/&quot;
+apiVersion &lt;- &quot;26.0&quot;
+(session &lt;- rforcecom.login(username, password, instanceURL, apiVersion))</code></pre>
+<p>Please note: do not forget your security token in the password field. The <a href="https://success.salesforce.com/answers?id=90630000000glADAAY">Salesforce community</a> shows how to reset the security token.</p>
+<p>Unfortunatly we probably get an error: <em>Error in curl::curl_fetch_memory(url, handle = handle) : Couldn’t resolve host name</em>, because the corporate network environment uses HTTP Proxy. To pick out the proxy setting we can use the <code>ie_proxy_info()</code> function from the <a href="https://cran.r-project.org/web/packages/curl/index.html">curl</a> R add-on package.:</p>
+<pre class="r"><code>#install.packages(&quot;curl&quot;)
+library(curl)
+ie_proxy_info()</code></pre>
+<p>Obviously the corporate network environment uses a global <a href="https://en.wikipedia.org/wiki/Proxy_auto-config">proxy auto-configuration (PUC)</a> file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the <code>ie_get_proxy_for_url()</code> function:</p>
+<pre class="r"><code>ie_get_proxy_for_url(target_url = &quot;https://login.salesforce.com/&quot;)</code></pre>
+<p>The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: **. Now we have to set the proxy configurations with the <code>set_config()</code> and <code>use_proxy()</code> functions from the <a href="https://cran.r-project.org/web/packages/httr/index.html">httr</a> R add-on package:</p>
+<pre class="r"><code>#install.packages(&quot;httr&quot;)
+library(httr)
+proxy_for_url &lt;- &quot;your proxy&quot; #from ie_get_proxy_for_url(target_url = &quot;https://login.salesforce.com/&quot;)
+port_for_url  &lt;- 8080
+set_config(
+  use_proxy(url = proxy_for_url&quot;, 
+            port = port_for_url,
+            username = &quot;windows_username&quot;, 
+            password = &quot;windows_password&quot;, 
+            auth = &quot;ntlm&quot;)
+)</code></pre>
+<p>Under some circumstances you will get the following error message at this point: <em>Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)</em>.
+In this case your security certificate, e.g. <em>curl-ca-bundle.crt</em> is located in the wrong folder. You have to paste the file into <em>C:/mingw64/ssl/certs</em>.</p>
+<p>Et voilà, we reached our goal to connect R with salesforce.com:</p>
+<pre class="r"><code>session &lt;- rforcecom.login(username = username, password = password, loginURL = instanceURL, apiVersion = apiVersion)
+session</code></pre>
+<p>Use the function <code>rforcecom.retrieve()</code> to retrieve a dataset:</p>
+<pre class="r"><code>rforcecom.retrieve(session = session, 
+                   objectName = &quot;Contact&quot;, 
+                   fields = c(&quot;ID&quot;, &quot;Name&quot;), 
+                   limit = 50)</code></pre>
+<p>After setting up our environment these procedures are very easy and are very useful for projects using R and Salesforce.com. Please let me know if you have any further questions or suggestions.</p>

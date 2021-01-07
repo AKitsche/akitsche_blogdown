@@ -1,0 +1,94 @@
+---
+title: Tidy Tuesday 52 2020
+author: Andreas Kitsche
+date: '2021-01-07'
+slug: tidy-tuesday-52-2020
+categories:
+  - R
+  - tidytuesday
+tags:
+  - rmarkdown
+  - tidytuesday
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-01-07T13:29:02+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+bibliography: ["references.bib", "references_auto.bib"]
+---
+
+
+```{r include = FALSE}
+library(xaringanExtra)
+# enable panelset
+use_panelset()
+# style_panelset_tabs(foreground = "honeydew", background = "seagreen")
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+if (!require("pacman")) install.packages("pacman")
+```
+
+
+```{r packages, include=FALSE}
+pacman::p_load(c("reticulate", "bookdown", "knitr", "tidyverse"))
+```
+
+```{r bib, include=FALSE}
+knitr::write_bib(c("reticulate", "bookdown"), "references_auto.bib")
+```
+
+
+Hey folks,
+
+this is the first of a series of blog post where I want to participate on the [tidytuesday](https://github.com/rfordatascience/tidytuesday/blob/master/README.md) weekly social data project in R. 
+
+> The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills independent of drawing conclusions.
+
+The goal of this series is to help me
+
+
+* practice data visualization and data wrangling in R (@R-base) using the tidyverse (@tidyverse)
+* adopt this skillset to learn Python
+* master to publish the applications using [R Markdown](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+::::: {.panelset}
+
+<!-- First panel -->
+::: {.panel}
+[R code]{.panel-name}
+
+Check the R code below:
+```{r echo = TRUE, eval = FALSE}
+lm(mpg ~ drat, data = mtcars)
+```
+:::
+
+<!-- Second panel -->
+::: {.panel}
+[Stata code]{.panel-name}
+
+```
+regress y x
+
+```
+:::
+
+<!-- Third panel -->
+::: {.panel}
+[R output]{.panel-name}
+```{r echo = FALSE, eval = TRUE}
+lm(mpg ~ drat, data = mtcars)
+```
+:::
+
+::::
+
+# References

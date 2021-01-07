@@ -1,0 +1,91 @@
+---
+title: "Connecting R with Salesforce.com"
+author: "Andreas Kitsche"
+date: 2015-07-23T21:13:14-05:00
+categories: ["R"]
+tags: ["salesforce", "R"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+Hey folks,
+
+this blog post will give a short introduction on how to connect [salesforce.com](https://www.salesforce.com) with [R](https://cran.r-project.org/). 
+According to [Takekatsu Hiramura](http://de.gravatar.com/hiratake55) 
+
+> R statistical computing environment is the most populous statistical computing software, and Salesforce.com is the world´s most innovative cloud-computing based SaaS (Software-as-a-Service) CRM package.
+
+
+![](/img/R_salesforce_blog_picture.png)
+
+To connect R with salesforce.com Takekatsu Hiramura developed the R add-on package [RForcecom](https://cran.r-project.org/web/packages/RForcecom/). The source code of the package is available from [github](https://github.com/hiratake55/RForcecom). You can install the package from [CRAN](http://cran.r-project.org/):
+
+```{r eval = FALSE, results='hide', message=FALSE, warning=FALSE}
+install.packages("RForcecom")
+library(RForcecom)
+```
+
+To sign in to salesforce.com we can use the `rforcecom.login()` function. We have to set the `username`, `password`, `instanceURL`, `apiVersion` arguments as follows:
+
+```{r eval = FALSE}
+username <- "yourname@yourcompany.com"
+password <- "YourPasswordSECURITY_TOKEN"
+instanceURL <- "https://login.salesforce.com/"
+apiVersion <- "26.0"
+(session <- rforcecom.login(username, password, instanceURL, apiVersion))
+```
+
+Please note: do not forget your security token in the password field. The [Salesforce community](https://success.salesforce.com/answers?id=90630000000glADAAY) shows how to reset the security token.
+
+
+Unfortunatly we probably get an error: *Error in curl::curl_fetch_memory(url, handle = handle) : Couldn't resolve host name*, because the corporate network environment uses HTTP Proxy. To pick out the proxy setting we can use the `ie_proxy_info()` function from the [curl](https://cran.r-project.org/web/packages/curl/index.html) R add-on package.:
+
+```{r eval = FALSE}
+#install.packages("curl")
+library(curl)
+ie_proxy_info()
+```
+
+
+Obviously the corporate network environment uses a global [proxy auto-configuration (PUC)](https://en.wikipedia.org/wiki/Proxy_auto-config) file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the `ie_get_proxy_for_url()` function:
+
+```{r eval = FALSE}
+ie_get_proxy_for_url(target_url = "https://login.salesforce.com/")
+```
+The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: **. Now we have to set the proxy configurations with the `set_config()` and  ` use_proxy()` functions from the [httr](https://cran.r-project.org/web/packages/httr/index.html) R add-on package:
+
+```{r eval = FALSE}
+#install.packages("httr")
+library(httr)
+proxy_for_url <- "your proxy" #from ie_get_proxy_for_url(target_url = "https://login.salesforce.com/")
+port_for_url  <- 8080
+set_config(
+  use_proxy(url = proxy_for_url", 
+            port = port_for_url,
+            username = "windows_username", 
+            password = "windows_password", 
+            auth = "ntlm")
+)
+```
+
+Under some circumstances you will get the following error message at this point: *Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)*. 
+In this case your security certificate, e.g. *curl-ca-bundle.crt* is located in the wrong folder. You have to paste the file into *C:/mingw64/ssl/certs*.
+
+Et voilà, we reached our goal to connect R with salesforce.com:
+
+
+```{r eval = FALSE}
+session <- rforcecom.login(username = username, password = password, loginURL = instanceURL, apiVersion = apiVersion)
+session
+```
+Use the function `rforcecom.retrieve()` to retrieve a dataset:
+```{r eval = FALSE}
+rforcecom.retrieve(session = session, 
+                   objectName = "Contact", 
+                   fields = c("ID", "Name"), 
+                   limit = 50)
+```
+
+After setting up our environment these procedures are very easy and are very useful for projects using R and Salesforce.com. Please let me know if you have any further questions or suggestions.

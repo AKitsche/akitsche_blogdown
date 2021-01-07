@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | AKitsche Blog</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andreas Kitsche</copyright><lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Tidy Tuesday 52 2020</title>
+      <link>/post/tidy-tuesday-52-2020/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/post/tidy-tuesday-52-2020/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/panelset/panelset.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/panelset/panelset.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Hey folks,&lt;/p&gt;
+&lt;p&gt;this is the first of a series of blog post where I want to participate on the &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34;&gt;tidytuesday&lt;/a&gt; weekly social data project in R.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills independent of drawing conclusions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The goal of this series is to help me&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;practice data visualization and data wrangling in R (&lt;span class=&#34;citation&#34;&gt;R Core Team (2019)&lt;/span&gt;) using the tidyverse (&lt;span class=&#34;citation&#34;&gt;Wickham et al. (2019)&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;adopt this skillset to learn Python&lt;/li&gt;
+&lt;li&gt;master to publish the applications using &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/&#34;&gt;R Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;panelset&#34;&gt;
+&lt;!-- First panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R code&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Check the R code below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lm(mpg ~ drat, data = mtcars)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Second panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;Stata code&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;regress y x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Third panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R output&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = mpg ~ drat, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         drat  
+##      -7.525        7.678&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-R-base&#34; class=&#34;csl-entry&#34;&gt;
+R Core Team. 2019. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria: R Foundation for Statistical Computing. &lt;a href=&#34;https://www.R-project.org&#34;&gt;https://www.R-project.org&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-tidyverse&#34; class=&#34;csl-entry&#34;&gt;
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. &lt;span&gt;“Welcome to the &lt;span class=&#34;nocase&#34;&gt;tidyverse&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Open Source Software&lt;/em&gt; 4 (43): 1686. &lt;a href=&#34;https://doi.org/10.21105/joss.01686&#34;&gt;https://doi.org/10.21105/joss.01686&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bonsai Impression Spring 2018</title>
+      <link>/post/bonsai_impressions_2018/bonsai_impressions_2018/</link>
+      <pubDate>Sun, 30 Apr 2017 21:13:14 -0500</pubDate>
+      <guid>/post/bonsai_impressions_2018/bonsai_impressions_2018/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;During the last weeks I did some work including root cutting, potting and styling on a couple of my pre-bonsai trees. My collection consists of a stock of approximately 100 trees ranging from European oak (&lt;a href=&#34;https://en.wikipedia.org/wiki/Quercus_robur&#34;&gt;&lt;em&gt;Quercus robur&lt;/em&gt;&lt;/a&gt;), small-leaved lime (&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;), pin oak (&lt;a href=&#34;https://en.wikipedia.org/wiki/Quercus_palustris&#34;&gt;&lt;em&gt;Quercus palustris&lt;/em&gt;&lt;/a&gt;), horse-chestnut (&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;), European beech (&lt;a href=&#34;https://en.wikipedia.org/wiki/Fagus_sylvatica&#34;&gt;&lt;em&gt;Fagus sylvatica&lt;/em&gt;&lt;/a&gt;), &lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;, Common hazel (&lt;em&gt;Corylus avellana&lt;/em&gt;), Creeping pine (&lt;a href=&#34;https://en.wikipedia.org/wiki/Pinus_mugo&#34;&gt;&lt;em&gt;Pinus mugo&lt;/em&gt;&lt;/a&gt;), Scots pine (&lt;a href=&#34;https://en.wikipedia.org/wiki/Scots_pine&#34;&gt;&lt;em&gt;Pinus sylvestris&lt;/em&gt;&lt;/a&gt;), English Yew (&lt;a href=&#34;https://en.wikipedia.org/wiki/Taxus_baccata&#34;&gt;&lt;em&gt;Taxus Baccata&lt;/em&gt;&lt;/a&gt;), … . Most of them are currently planted in the field.&lt;/p&gt;
+&lt;p&gt;The following gallery shows some impression in spring 2018:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161032.jpg&#34; style=&#34;width:70.0%&#34; alt=&#34;Acer monspessulanum&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Acer_monspessulanum&#34;&gt;Acer monspessulanum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_174619.jpg&#34; style=&#34;width:70.0%&#34; alt=&#34;Test&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161132.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+Collection of pre-bonsais currently planted in the field&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161302.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161146.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161207.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161221.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161232.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180414_131952_BURST001_COVER.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Connecting R with Salesforce.com</title>
+      <link>/post/r_salesforce/r_salesforce/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>/post/r_salesforce/r_salesforce/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Hey folks,&lt;/p&gt;
+&lt;p&gt;this blog post will give a short introduction on how to connect &lt;a href=&#34;https://www.salesforce.com&#34;&gt;salesforce.com&lt;/a&gt; with &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R&lt;/a&gt;.
+According to &lt;a href=&#34;http://de.gravatar.com/hiratake55&#34;&gt;Takekatsu Hiramura&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;R statistical computing environment is the most populous statistical computing software, and Salesforce.com is the world´s most innovative cloud-computing based SaaS (Software-as-a-Service) CRM package.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/img/R_salesforce_blog_picture.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To connect R with salesforce.com Takekatsu Hiramura developed the R add-on package &lt;a href=&#34;https://cran.r-project.org/web/packages/RForcecom/&#34;&gt;RForcecom&lt;/a&gt;. The source code of the package is available from &lt;a href=&#34;https://github.com/hiratake55/RForcecom&#34;&gt;github&lt;/a&gt;. You can install the package from &lt;a href=&#34;http://cran.r-project.org/&#34;&gt;CRAN&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;RForcecom&amp;quot;)
+library(RForcecom)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To sign in to salesforce.com we can use the &lt;code&gt;rforcecom.login()&lt;/code&gt; function. We have to set the &lt;code&gt;username&lt;/code&gt;, &lt;code&gt;password&lt;/code&gt;, &lt;code&gt;instanceURL&lt;/code&gt;, &lt;code&gt;apiVersion&lt;/code&gt; arguments as follows:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;username &amp;lt;- &amp;quot;yourname@yourcompany.com&amp;quot;
+password &amp;lt;- &amp;quot;YourPasswordSECURITY_TOKEN&amp;quot;
+instanceURL &amp;lt;- &amp;quot;https://login.salesforce.com/&amp;quot;
+apiVersion &amp;lt;- &amp;quot;26.0&amp;quot;
+(session &amp;lt;- rforcecom.login(username, password, instanceURL, apiVersion))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Please note: do not forget your security token in the password field. The &lt;a href=&#34;https://success.salesforce.com/answers?id=90630000000glADAAY&#34;&gt;Salesforce community&lt;/a&gt; shows how to reset the security token.&lt;/p&gt;
+&lt;p&gt;Unfortunatly we probably get an error: &lt;em&gt;Error in curl::curl_fetch_memory(url, handle = handle) : Couldn’t resolve host name&lt;/em&gt;, because the corporate network environment uses HTTP Proxy. To pick out the proxy setting we can use the &lt;code&gt;ie_proxy_info()&lt;/code&gt; function from the &lt;a href=&#34;https://cran.r-project.org/web/packages/curl/index.html&#34;&gt;curl&lt;/a&gt; R add-on package.:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;curl&amp;quot;)
+library(curl)
+ie_proxy_info()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Obviously the corporate network environment uses a global &lt;a href=&#34;https://en.wikipedia.org/wiki/Proxy_auto-config&#34;&gt;proxy auto-configuration (PUC)&lt;/a&gt; file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the &lt;code&gt;ie_get_proxy_for_url()&lt;/code&gt; function:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ie_get_proxy_for_url(target_url = &amp;quot;https://login.salesforce.com/&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: **. Now we have to set the proxy configurations with the &lt;code&gt;set_config()&lt;/code&gt; and &lt;code&gt;use_proxy()&lt;/code&gt; functions from the &lt;a href=&#34;https://cran.r-project.org/web/packages/httr/index.html&#34;&gt;httr&lt;/a&gt; R add-on package:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;httr&amp;quot;)
+library(httr)
+proxy_for_url &amp;lt;- &amp;quot;your proxy&amp;quot; #from ie_get_proxy_for_url(target_url = &amp;quot;https://login.salesforce.com/&amp;quot;)
+port_for_url  &amp;lt;- 8080
+set_config(
+  use_proxy(url = proxy_for_url&amp;quot;, 
+            port = port_for_url,
+            username = &amp;quot;windows_username&amp;quot;, 
+            password = &amp;quot;windows_password&amp;quot;, 
+            auth = &amp;quot;ntlm&amp;quot;)
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Under some circumstances you will get the following error message at this point: &lt;em&gt;Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)&lt;/em&gt;.
+In this case your security certificate, e.g. &lt;em&gt;curl-ca-bundle.crt&lt;/em&gt; is located in the wrong folder. You have to paste the file into &lt;em&gt;C:/mingw64/ssl/certs&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Et voilà, we reached our goal to connect R with salesforce.com:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;session &amp;lt;- rforcecom.login(username = username, password = password, loginURL = instanceURL, apiVersion = apiVersion)
+session&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Use the function &lt;code&gt;rforcecom.retrieve()&lt;/code&gt; to retrieve a dataset:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rforcecom.retrieve(session = session, 
+                   objectName = &amp;quot;Contact&amp;quot;, 
+                   fields = c(&amp;quot;ID&amp;quot;, &amp;quot;Name&amp;quot;), 
+                   limit = 50)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After setting up our environment these procedures are very easy and are very useful for projects using R and Salesforce.com. Please let me know if you have any further questions or suggestions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

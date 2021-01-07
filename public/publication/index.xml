@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | AKitsche Blog</title>
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andreas Kitsche</copyright><lastBuildDate>Wed, 08 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
+    
+    <item>
+      <title>Cardiolipin supports respiratory enzymes in plants in different ways</title>
+      <link>/publication/fps_petereit_etal/fps_petereit_etal/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/fps_petereit_etal/fps_petereit_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A general framework for the evaluation of genetic association studies using multiple marginal models</title>
+      <link>/publication/humanheredity_kitsche_etal/humanheredity_kitsche_etal/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/humanheredity_kitsche_etal/humanheredity_kitsche_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Isolation, Structure Elucidation, Biosynthesis, and Synthesis of Antalid, a Secondary Metabolite from Polyangium species</title>
+      <link>/publication/ol_tautz_etal/ol_tautz_etal/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ol_tautz_etal/ol_tautz_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of statistical interactions in factorial experiments</title>
+      <link>/publication/jacs_kitsche_schaarschmidt/jacs_kitsche_schaarschmidt/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/jacs_kitsche_schaarschmidt/jacs_kitsche_schaarschmidt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistical evaluation of toxicological assays with zero or near-to-zero proportions or counts in the concurrent negative control group: a tutorial</title>
+      <link>/publication/jpbiostat_jaki_etal/jpbiostat_jaki_etal/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/jpbiostat_jaki_etal/jpbiostat_jaki_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing for qualitative interaction using ratios of treatment differences</title>
+      <link>/publication/sim_kitsche_hothorn/sim_kitsche_hothorn/</link>
+      <pubDate>Wed, 30 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/sim_kitsche_hothorn/sim_kitsche_hothorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting qualitative interactions in clinical trials with binary responses</title>
+      <link>/publication/ps_kitsche/ps_kitsche/</link>
+      <pubDate>Thu, 09 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/ps_kitsche/ps_kitsche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Configurational assignment of secondary hydroxyl groups and methyl branches in polyketide natural products through bioinformatic analysis of the ketoreductase domain</title>
+      <link>/publication/phh_kitsche_kalesse/phh_kitsche_kalesse/</link>
+      <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/phh_kitsche_kalesse/phh_kitsche_kalesse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The use of historical controls in estimating simultaneous confidence intervals for comparisons against a concurrent control</title>
+      <link>/publication/csda_kitsche_etal/csda_kitsche_etal/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/csda_kitsche_etal/csda_kitsche_etal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

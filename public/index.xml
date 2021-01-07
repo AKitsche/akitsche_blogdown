@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AKitsche Blog</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>AKitsche Blog</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andreas Kitsche</copyright><lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>AKitsche Blog</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Tidy Tuesday 52 2020</title>
+      <link>/post/tidy-tuesday-52-2020/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/post/tidy-tuesday-52-2020/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/panelset/panelset.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/panelset/panelset.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Hey folks,&lt;/p&gt;
+&lt;p&gt;this is the first of a series of blog post where I want to participate on the &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34;&gt;tidytuesday&lt;/a&gt; weekly social data project in R.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills independent of drawing conclusions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The goal of this series is to help me&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;practice data visualization and data wrangling in R (&lt;span class=&#34;citation&#34;&gt;R Core Team (2019)&lt;/span&gt;) using the tidyverse (&lt;span class=&#34;citation&#34;&gt;Wickham et al. (2019)&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;adopt this skillset to learn Python&lt;/li&gt;
+&lt;li&gt;master to publish the applications using &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/&#34;&gt;R Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;panelset&#34;&gt;
+&lt;!-- First panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R code&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Check the R code below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lm(mpg ~ drat, data = mtcars)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Second panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;Stata code&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;regress y x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Third panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R output&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = mpg ~ drat, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         drat  
+##      -7.525        7.678&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-R-base&#34; class=&#34;csl-entry&#34;&gt;
+R Core Team. 2019. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria: R Foundation for Statistical Computing. &lt;a href=&#34;https://www.R-project.org&#34;&gt;https://www.R-project.org&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-tidyverse&#34; class=&#34;csl-entry&#34;&gt;
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. &lt;span&gt;“Welcome to the &lt;span class=&#34;nocase&#34;&gt;tidyverse&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Open Source Software&lt;/em&gt; 4 (43): 1686. &lt;a href=&#34;https://doi.org/10.21105/joss.01686&#34;&gt;https://doi.org/10.21105/joss.01686&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data manipulation in R</title>
+      <link>/talk/data-manipulation-in-r/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0100</pubDate>
+      <guid>/talk/data-manipulation-in-r/</guid>
+      <description>&lt;p&gt;This talk was part of the Machine Learning/Data Science Meet up Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bonsai Impression Spring 2018</title>
+      <link>/post/bonsai_impressions_2018/bonsai_impressions_2018/</link>
+      <pubDate>Sun, 30 Apr 2017 21:13:14 -0500</pubDate>
+      <guid>/post/bonsai_impressions_2018/bonsai_impressions_2018/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;During the last weeks I did some work including root cutting, potting and styling on a couple of my pre-bonsai trees. My collection consists of a stock of approximately 100 trees ranging from European oak (&lt;a href=&#34;https://en.wikipedia.org/wiki/Quercus_robur&#34;&gt;&lt;em&gt;Quercus robur&lt;/em&gt;&lt;/a&gt;), small-leaved lime (&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;), pin oak (&lt;a href=&#34;https://en.wikipedia.org/wiki/Quercus_palustris&#34;&gt;&lt;em&gt;Quercus palustris&lt;/em&gt;&lt;/a&gt;), horse-chestnut (&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;), European beech (&lt;a href=&#34;https://en.wikipedia.org/wiki/Fagus_sylvatica&#34;&gt;&lt;em&gt;Fagus sylvatica&lt;/em&gt;&lt;/a&gt;), &lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;, Common hazel (&lt;em&gt;Corylus avellana&lt;/em&gt;), Creeping pine (&lt;a href=&#34;https://en.wikipedia.org/wiki/Pinus_mugo&#34;&gt;&lt;em&gt;Pinus mugo&lt;/em&gt;&lt;/a&gt;), Scots pine (&lt;a href=&#34;https://en.wikipedia.org/wiki/Scots_pine&#34;&gt;&lt;em&gt;Pinus sylvestris&lt;/em&gt;&lt;/a&gt;), English Yew (&lt;a href=&#34;https://en.wikipedia.org/wiki/Taxus_baccata&#34;&gt;&lt;em&gt;Taxus Baccata&lt;/em&gt;&lt;/a&gt;), … . Most of them are currently planted in the field.&lt;/p&gt;
+&lt;p&gt;The following gallery shows some impression in spring 2018:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161032.jpg&#34; style=&#34;width:70.0%&#34; alt=&#34;Acer monspessulanum&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Acer_monspessulanum&#34;&gt;Acer monspessulanum&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_174619.jpg&#34; style=&#34;width:70.0%&#34; alt=&#34;Test&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161132.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+Collection of pre-bonsais currently planted in the field&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161302.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161146.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161207.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Tilia_cordata&#34;&gt;&lt;em&gt;Tilia cordata&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161221.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180428_161232.jpg&#34; style=&#34;width:70.0%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Aesculus_hippocastanum&#34;&gt;&lt;em&gt;Aesculus hippocastanum&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/IMG_20180414_131952_BURST001_COVER.jpg&#34; style=&#34;width:70.0%&#34; /&gt;
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Ginkgo_biloba&#34;&gt;&lt;em&gt;Ginkgo biloba&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cardiolipin supports respiratory enzymes in plants in different ways</title>
+      <link>/publication/fps_petereit_etal/fps_petereit_etal/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/fps_petereit_etal/fps_petereit_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A general framework for the evaluation of genetic association studies using multiple marginal models</title>
+      <link>/publication/humanheredity_kitsche_etal/humanheredity_kitsche_etal/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/humanheredity_kitsche_etal/humanheredity_kitsche_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to implement a shiny web App for inferential statistics</title>
+      <link>/talk/how-to-implement-a-shiny-web-app-for-inferential-statistics/</link>
+      <pubDate>Thu, 26 Jan 2017 00:00:00 +0100</pubDate>
+      <guid>/talk/how-to-implement-a-shiny-web-app-for-inferential-statistics/</guid>
+      <description>&lt;p&gt;This talk was part of Biometric Seminar at the Leibniz University of Hannover.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The evaluation of genetic association studies using the multiple marginal models appoach</title>
+      <link>/talk/the-evaluation-of-genetic-association-studies-using-the-multiple-marginal-models-appoach/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0100</pubDate>
+      <guid>/talk/the-evaluation-of-genetic-association-studies-using-the-multiple-marginal-models-appoach/</guid>
+      <description>&lt;p&gt;This talk was part of the workshop on using the multiple marginal models approach introduced by &lt;a href=&#34;http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9876.2011.01005.x/abstract&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pipper et al.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Isolation, Structure Elucidation, Biosynthesis, and Synthesis of Antalid, a Secondary Metabolite from Polyangium species</title>
+      <link>/publication/ol_tautz_etal/ol_tautz_etal/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/ol_tautz_etal/ol_tautz_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Power and sample size computations for the simultaneous assessment of the consistency of treatment effects</title>
+      <link>/project/power_consistency/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/power_consistency/</guid>
+      <description>&lt;p&gt;In this study power and sample size calculations for the analysis of treatment-by-subgroup interactions are proposed. Therefore, the interaction effect is either defined via product-type interaction  contrasts or as ratio of treatment differences. The latter formulation allows besides the detection of interactions also the assessment of the consistency/heterogeneity of the subgroup-specific treatment effect by the definition of an inconsistency margin.&lt;/p&gt;
+&lt;p&gt;You can find the pdf of a detailed article &lt;a href=&#34;pdf/PowerConsistency_SIM.pdf&#34;&gt;here&lt;/a&gt;. Furthermore, the slides from a corresponding talk are given &lt;a href=&#34;JournalClub_Power.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Connecting R with Salesforce.com</title>
+      <link>/post/r_salesforce/r_salesforce/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>/post/r_salesforce/r_salesforce/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Hey folks,&lt;/p&gt;
+&lt;p&gt;this blog post will give a short introduction on how to connect &lt;a href=&#34;https://www.salesforce.com&#34;&gt;salesforce.com&lt;/a&gt; with &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R&lt;/a&gt;.
+According to &lt;a href=&#34;http://de.gravatar.com/hiratake55&#34;&gt;Takekatsu Hiramura&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;R statistical computing environment is the most populous statistical computing software, and Salesforce.com is the world´s most innovative cloud-computing based SaaS (Software-as-a-Service) CRM package.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;/img/R_salesforce_blog_picture.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;To connect R with salesforce.com Takekatsu Hiramura developed the R add-on package &lt;a href=&#34;https://cran.r-project.org/web/packages/RForcecom/&#34;&gt;RForcecom&lt;/a&gt;. The source code of the package is available from &lt;a href=&#34;https://github.com/hiratake55/RForcecom&#34;&gt;github&lt;/a&gt;. You can install the package from &lt;a href=&#34;http://cran.r-project.org/&#34;&gt;CRAN&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;RForcecom&amp;quot;)
+library(RForcecom)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To sign in to salesforce.com we can use the &lt;code&gt;rforcecom.login()&lt;/code&gt; function. We have to set the &lt;code&gt;username&lt;/code&gt;, &lt;code&gt;password&lt;/code&gt;, &lt;code&gt;instanceURL&lt;/code&gt;, &lt;code&gt;apiVersion&lt;/code&gt; arguments as follows:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;username &amp;lt;- &amp;quot;yourname@yourcompany.com&amp;quot;
+password &amp;lt;- &amp;quot;YourPasswordSECURITY_TOKEN&amp;quot;
+instanceURL &amp;lt;- &amp;quot;https://login.salesforce.com/&amp;quot;
+apiVersion &amp;lt;- &amp;quot;26.0&amp;quot;
+(session &amp;lt;- rforcecom.login(username, password, instanceURL, apiVersion))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Please note: do not forget your security token in the password field. The &lt;a href=&#34;https://success.salesforce.com/answers?id=90630000000glADAAY&#34;&gt;Salesforce community&lt;/a&gt; shows how to reset the security token.&lt;/p&gt;
+&lt;p&gt;Unfortunatly we probably get an error: &lt;em&gt;Error in curl::curl_fetch_memory(url, handle = handle) : Couldn’t resolve host name&lt;/em&gt;, because the corporate network environment uses HTTP Proxy. To pick out the proxy setting we can use the &lt;code&gt;ie_proxy_info()&lt;/code&gt; function from the &lt;a href=&#34;https://cran.r-project.org/web/packages/curl/index.html&#34;&gt;curl&lt;/a&gt; R add-on package.:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;curl&amp;quot;)
+library(curl)
+ie_proxy_info()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Obviously the corporate network environment uses a global &lt;a href=&#34;https://en.wikipedia.org/wiki/Proxy_auto-config&#34;&gt;proxy auto-configuration (PUC)&lt;/a&gt; file that defines how web browsers and other user agents can automatically choose the appropriate proxy server. We can get the info of the proxy for a specific URL using the &lt;code&gt;ie_get_proxy_for_url()&lt;/code&gt; function:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ie_get_proxy_for_url(target_url = &amp;quot;https://login.salesforce.com/&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The function returns a character string with two proxies and their corresponding port. We will further use the first proxy displayed: **. Now we have to set the proxy configurations with the &lt;code&gt;set_config()&lt;/code&gt; and &lt;code&gt;use_proxy()&lt;/code&gt; functions from the &lt;a href=&#34;https://cran.r-project.org/web/packages/httr/index.html&#34;&gt;httr&lt;/a&gt; R add-on package:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#install.packages(&amp;quot;httr&amp;quot;)
+library(httr)
+proxy_for_url &amp;lt;- &amp;quot;your proxy&amp;quot; #from ie_get_proxy_for_url(target_url = &amp;quot;https://login.salesforce.com/&amp;quot;)
+port_for_url  &amp;lt;- 8080
+set_config(
+  use_proxy(url = proxy_for_url&amp;quot;, 
+            port = port_for_url,
+            username = &amp;quot;windows_username&amp;quot;, 
+            password = &amp;quot;windows_password&amp;quot;, 
+            auth = &amp;quot;ntlm&amp;quot;)
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Under some circumstances you will get the following error message at this point: &lt;em&gt;Error in curl::curl_fetch_memory(url, handle = handle) : Problem with the SSL CA cert (path? access rights?)&lt;/em&gt;.
+In this case your security certificate, e.g. &lt;em&gt;curl-ca-bundle.crt&lt;/em&gt; is located in the wrong folder. You have to paste the file into &lt;em&gt;C:/mingw64/ssl/certs&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Et voilà, we reached our goal to connect R with salesforce.com:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;session &amp;lt;- rforcecom.login(username = username, password = password, loginURL = instanceURL, apiVersion = apiVersion)
+session&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Use the function &lt;code&gt;rforcecom.retrieve()&lt;/code&gt; to retrieve a dataset:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rforcecom.retrieve(session = session, 
+                   objectName = &amp;quot;Contact&amp;quot;, 
+                   fields = c(&amp;quot;ID&amp;quot;, &amp;quot;Name&amp;quot;), 
+                   limit = 50)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After setting up our environment these procedures are very easy and are very useful for projects using R and Salesforce.com. Please let me know if you have any further questions or suggestions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis of statistical interactions in factorial experiments</title>
+      <link>/publication/jacs_kitsche_schaarschmidt/jacs_kitsche_schaarschmidt/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/jacs_kitsche_schaarschmidt/jacs_kitsche_schaarschmidt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alternative effect size measurements corresponding to the two sample t-test</title>
+      <link>/project/effect_size/</link>
+      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>/project/effect_size/</guid>
+      <description>&lt;p&gt;If interest is in comparing the means of two (normally distributed) samples it is common practise to perform a two-sample t-test and report the corresponding p-value. Nevertheless, it has been widely criticized that the p-value does not provide a measure for the magnitude of the mean effect (e.g., Browne (2010)). This report provides an overview of existing alternatives recently published in the scientific literature that provide a more meaningful measurement of the effect size. Browne (2010) introduced closed form equations to translate a significant t-test p-value and sample size into the probability of one treatment being more successful than another on a per individual basis. This term was afterwards denoted as win probability by Hayter (2013) and he demonstrated the interpretation as &amp;ldquo;what would happen if a single future observation were to be taken from either of the two treatments, with attention being directed towards which treatment would win by providing the better value.&amp;rdquo; In addition Hayter (2013) introduced the corresponding confidence interval as well as the odds of X being greater than Y. He further introduced the transformation into Cohens effect size and the corresponding confidence intervals.&lt;/p&gt;
+&lt;p&gt;You can find the pdf of a detailed article &lt;a href=&#34;/files/pdf/effect_size.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Statistical evaluation of toxicological assays with zero or near-to-zero proportions or counts in the concurrent negative control group: a tutorial</title>
+      <link>/publication/jpbiostat_jaki_etal/jpbiostat_jaki_etal/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/jpbiostat_jaki_etal/jpbiostat_jaki_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing for qualitative interaction using ratios of treatment differences</title>
+      <link>/publication/sim_kitsche_hothorn/sim_kitsche_hothorn/</link>
+      <pubDate>Wed, 30 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/sim_kitsche_hothorn/sim_kitsche_hothorn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting qualitative interactions in clinical trials with binary responses</title>
+      <link>/publication/ps_kitsche/ps_kitsche/</link>
+      <pubDate>Thu, 09 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/ps_kitsche/ps_kitsche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testing for qualitative interaction using ratios of treatment differences</title>
+      <link>/talk/testing-for-qualitative-interaction-using-ratios-of-treatment-differences/</link>
+      <pubDate>Tue, 24 Sep 2013 00:00:00 +0200</pubDate>
+      <guid>/talk/testing-for-qualitative-interaction-using-ratios-of-treatment-differences/</guid>
+      <description>&lt;p&gt;This talk was part of the International Conference on Simultaneous Inference.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Configurational assignment of secondary hydroxyl groups and methyl branches in polyketide natural products through bioinformatic analysis of the ketoreductase domain</title>
+      <link>/publication/phh_kitsche_kalesse/phh_kitsche_kalesse/</link>
+      <pubDate>Fri, 10 May 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/phh_kitsche_kalesse/phh_kitsche_kalesse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The use of historical controls in estimating simultaneous confidence intervals for comparisons against a concurrent control</title>
+      <link>/publication/csda_kitsche_etal/csda_kitsche_etal/</link>
+      <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/csda_kitsche_etal/csda_kitsche_etal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessment of the Heterogeneity of the Treatment Effect among Subgroups by Detecting Qualitative Interactions</title>
+      <link>/talk/assessment-of-the-heterogeneity-of-the-treatment-effect-among-subgroups-by-detecting-qualitative-interactions/</link>
+      <pubDate>Tue, 28 Aug 2012 00:00:00 +0200</pubDate>
+      <guid>/talk/assessment-of-the-heterogeneity-of-the-treatment-effect-among-subgroups-by-detecting-qualitative-interactions/</guid>
+      <description>&lt;p&gt;This talk was part of the XXVIth International Biometric Conference Kobe, Japan.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Model Averaging</title>
+      <link>/talk/bayesian-model-averaging/</link>
+      <pubDate>Mon, 21 Nov 2011 00:00:00 +0100</pubDate>
+      <guid>/talk/bayesian-model-averaging/</guid>
+      <description>&lt;p&gt;This talk was held at the Journal Club at the Institute of Biostatistics Hannover, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Multiple Comparisons</title>
+      <link>/talk/display-multiple-comparisons/</link>
+      <pubDate>Wed, 09 Nov 2011 00:00:00 +0100</pubDate>
+      <guid>/talk/display-multiple-comparisons/</guid>
+      <description>&lt;p&gt;This talk was held at the Journal Club at the Institute of Biostatistics Hannover, Germany.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evaluation of interaction effects with user defined contrasts in the cell means model</title>
+      <link>/talk/evaluation-of-interaction-effects-with-user-defined-contrasts-in-the-cell-means-model/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0200</pubDate>
+      <guid>/talk/evaluation-of-interaction-effects-with-user-defined-contrasts-in-the-cell-means-model/</guid>
+      <description>&lt;p&gt;This talk was part of the 2nd conference of the Central European Network Zurich, Switzerland.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous confidence intervals incorporating historical control data</title>
+      <link>/talk/simultaneous-confidence-intervals-incorporating-historical-control-data/</link>
+      <pubDate>Mon, 27 Sep 2010 00:00:00 +0200</pubDate>
+      <guid>/talk/simultaneous-confidence-intervals-incorporating-historical-control-data/</guid>
+      <description>&lt;p&gt;This talk was part of the Non-Clinical Statistics Conference Lyon, France.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

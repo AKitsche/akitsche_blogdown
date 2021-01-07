@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/r/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/rmarkdown/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/tidy-tuesday-52-2020/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/tidytuesday/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/tidytuesday/</loc>
+    <lastmod>2021-01-07T13:29:02+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/data-manipulation-in-r/</loc>
+    <lastmod>2017-11-14T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/event/</loc>
+    <lastmod>2017-11-14T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/bonsai/</loc>
+    <lastmod>2017-04-30T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/bonsai/</loc>
+    <lastmod>2017-04-30T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/bonsai_impressions_2018/bonsai_impressions_2018/</loc>
+    <lastmod>2017-04-30T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/2/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/fps_petereit_etal/fps_petereit_etal/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/humanheredity_kitsche_etal/humanheredity_kitsche_etal/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/how-to-implement-a-shiny-web-app-for-inferential-statistics/</loc>
+    <lastmod>2017-01-26T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/the-evaluation-of-genetic-association-studies-using-the-multiple-marginal-models-appoach/</loc>
+    <lastmod>2016-12-16T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/ol_tautz_etal/ol_tautz_etal/</loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2016-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/heterogeneity/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/multi-regional-clinical-trials/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/power_consistency/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/treatment-by-subset-interaction/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/r_salesforce/r_salesforce/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/salesforce/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/jacs_kitsche_schaarschmidt/jacs_kitsche_schaarschmidt/</loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2015-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/effect_size/</loc>
+    <lastmod>2014-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/confidence-intervals/</loc>
+    <lastmod>2014-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/effect-size/</loc>
+    <lastmod>2014-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/p-value/</loc>
+    <lastmod>2014-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/jpbiostat_jaki_etal/jpbiostat_jaki_etal/</loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2014-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/sim_kitsche_hothorn/sim_kitsche_hothorn/</loc>
+    <lastmod>2014-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/ps_kitsche/ps_kitsche/</loc>
+    <lastmod>2014-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/testing-for-qualitative-interaction-using-ratios-of-treatment-differences/</loc>
+    <lastmod>2013-09-24T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/phh_kitsche_kalesse/phh_kitsche_kalesse/</loc>
+    <lastmod>2013-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/csda_kitsche_etal/csda_kitsche_etal/</loc>
+    <lastmod>2012-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/assessment-of-the-heterogeneity-of-the-treatment-effect-among-subgroups-by-detecting-qualitative-interactions/</loc>
+    <lastmod>2012-08-28T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/bayesian-model-averaging/</loc>
+    <lastmod>2011-11-21T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/display-multiple-comparisons/</loc>
+    <lastmod>2011-11-09T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/evaluation-of-interaction-effects-with-user-defined-contrasts-in-the-cell-means-model/</loc>
+    <lastmod>2011-09-12T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/simultaneous-confidence-intervals-incorporating-historical-control-data/</loc>
+    <lastmod>2010-09-27T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+  </url>
+  
+  <url>
+    <loc>/courses/</loc>
+  </url>
+  
+</urlset>

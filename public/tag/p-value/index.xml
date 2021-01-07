@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>p-value | AKitsche Blog</title>
+    <link>/tag/p-value/</link>
+      <atom:link href="/tag/p-value/index.xml" rel="self" type="application/rss+xml" />
+    <description>p-value</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andreas Kitsche</copyright><lastBuildDate>Fri, 05 Dec 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>p-value</title>
+      <link>/tag/p-value/</link>
+    </image>
+    
+    <item>
+      <title>Alternative effect size measurements corresponding to the two sample t-test</title>
+      <link>/project/effect_size/</link>
+      <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>/project/effect_size/</guid>
+      <description>&lt;p&gt;If interest is in comparing the means of two (normally distributed) samples it is common practise to perform a two-sample t-test and report the corresponding p-value. Nevertheless, it has been widely criticized that the p-value does not provide a measure for the magnitude of the mean effect (e.g., Browne (2010)). This report provides an overview of existing alternatives recently published in the scientific literature that provide a more meaningful measurement of the effect size. Browne (2010) introduced closed form equations to translate a significant t-test p-value and sample size into the probability of one treatment being more successful than another on a per individual basis. This term was afterwards denoted as win probability by Hayter (2013) and he demonstrated the interpretation as &amp;ldquo;what would happen if a single future observation were to be taken from either of the two treatments, with attention being directed towards which treatment would win by providing the better value.&amp;rdquo; In addition Hayter (2013) introduced the corresponding confidence interval as well as the odds of X being greater than Y. He further introduced the transformation into Cohens effect size and the corresponding confidence intervals.&lt;/p&gt;
+&lt;p&gt;You can find the pdf of a detailed article &lt;a href=&#34;/files/pdf/effect_size.pdf&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

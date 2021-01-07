@@ -1,0 +1,76 @@
+---
+title: Tidy Tuesday 52 2020
+author: Andreas Kitsche
+date: '2021-01-07'
+slug: tidy-tuesday-52-2020
+categories:
+  - R
+  - tidytuesday
+tags:
+  - rmarkdown
+  - tidytuesday
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-01-07T13:29:02+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+bibliography: ["references.bib", "references_auto.bib"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/panelset/panelset.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/panelset/panelset.js"></script>
+
+
+<p>Hey folks,</p>
+<p>this is the first of a series of blog post where I want to participate on the <a href="https://github.com/rfordatascience/tidytuesday/blob/master/README.md">tidytuesday</a> weekly social data project in R.</p>
+<blockquote>
+<p>The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills independent of drawing conclusions.</p>
+</blockquote>
+<p>The goal of this series is to help me</p>
+<ul>
+<li>practice data visualization and data wrangling in R (<span class="citation">R Core Team (2019)</span>) using the tidyverse (<span class="citation">Wickham et al. (2019)</span>)</li>
+<li>adopt this skillset to learn Python</li>
+<li>master to publish the applications using <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">R Markdown</a></li>
+</ul>
+<div class="panelset">
+<!-- First panel -->
+<div class="panel">
+<p><span class="panel-name">R code</span></p>
+<p>Check the R code below:</p>
+<pre class="r"><code>lm(mpg ~ drat, data = mtcars)</code></pre>
+</div>
+<!-- Second panel -->
+<div class="panel">
+<p><span class="panel-name">Stata code</span></p>
+<pre><code>regress y x
+</code></pre>
+</div>
+<!-- Third panel -->
+<div class="panel">
+<p><span class="panel-name">R output</span></p>
+<pre><code>## 
+## Call:
+## lm(formula = mpg ~ drat, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         drat  
+##      -7.525        7.678</code></pre>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-R-base" class="csl-entry">
+R Core Team. 2019. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org">https://www.R-project.org</a>.
+</div>
+<div id="ref-tidyverse" class="csl-entry">
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. <span>“Welcome to the <span class="nocase">tidyverse</span>.”</span> <em>Journal of Open Source Software</em> 4 (43): 1686. <a href="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686</a>.
+</div>
+</div>
+</div>

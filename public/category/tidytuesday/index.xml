@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tidytuesday | AKitsche Blog</title>
+    <link>/category/tidytuesday/</link>
+      <atom:link href="/category/tidytuesday/index.xml" rel="self" type="application/rss+xml" />
+    <description>tidytuesday</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andreas Kitsche</copyright><lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>tidytuesday</title>
+      <link>/category/tidytuesday/</link>
+    </image>
+    
+    <item>
+      <title>Tidy Tuesday 52 2020</title>
+      <link>/post/tidy-tuesday-52-2020/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/post/tidy-tuesday-52-2020/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/panelset/panelset.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/panelset/panelset.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Hey folks,&lt;/p&gt;
+&lt;p&gt;this is the first of a series of blog post where I want to participate on the &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday/blob/master/README.md&#34;&gt;tidytuesday&lt;/a&gt; weekly social data project in R.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills independent of drawing conclusions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The goal of this series is to help me&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;practice data visualization and data wrangling in R (&lt;span class=&#34;citation&#34;&gt;R Core Team (2019)&lt;/span&gt;) using the tidyverse (&lt;span class=&#34;citation&#34;&gt;Wickham et al. (2019)&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;adopt this skillset to learn Python&lt;/li&gt;
+&lt;li&gt;master to publish the applications using &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/&#34;&gt;R Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;panelset&#34;&gt;
+&lt;!-- First panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R code&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Check the R code below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;lm(mpg ~ drat, data = mtcars)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Second panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;Stata code&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;regress y x
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;!-- Third panel --&gt;
+&lt;div class=&#34;panel&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;panel-name&#34;&gt;R output&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = mpg ~ drat, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         drat  
+##      -7.525        7.678&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
+&lt;h1&gt;References&lt;/h1&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-R-base&#34; class=&#34;csl-entry&#34;&gt;
+R Core Team. 2019. &lt;em&gt;R: A Language and Environment for Statistical Computing&lt;/em&gt;. Vienna, Austria: R Foundation for Statistical Computing. &lt;a href=&#34;https://www.R-project.org&#34;&gt;https://www.R-project.org&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-tidyverse&#34; class=&#34;csl-entry&#34;&gt;
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. &lt;span&gt;“Welcome to the &lt;span class=&#34;nocase&#34;&gt;tidyverse&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal of Open Source Software&lt;/em&gt; 4 (43): 1686. &lt;a href=&#34;https://doi.org/10.21105/joss.01686&#34;&gt;https://doi.org/10.21105/joss.01686&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
